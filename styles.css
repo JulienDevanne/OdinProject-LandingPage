@@ -8,3 +8,13 @@ li {
     height: auto;
     flex: 1;
 }
+
+.container1 {
+    display: flex;
+}
+
+.item {
+    heigth: auto;
+    width: 750px;
+    flex: 1;
+}
