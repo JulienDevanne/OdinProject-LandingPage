@@ -16,6 +16,9 @@ li {
 
 .container1 {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
 }
 
 .item {
@@ -29,15 +32,15 @@ img {
 }
 
 .square {
-    border: 2px solid #fff;
+    border: 2px solid red;
     border-radius: 25px;
-    width: 150px;
-    height: 150px;
-    flex: 1;
+    width: 100px;
+    height: 100px;
+    flex-grow: 0;
 
 }
 
 .container2 {
-    border: 2px solid #fff;
+    border: 2px solid red;
     text-align: center;
 }
