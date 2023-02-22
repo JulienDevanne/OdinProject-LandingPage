@@ -1,4 +1,9 @@
 
+body {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 ul {
     list-style-type: none;
     display: flex;
@@ -20,6 +25,7 @@ li {
 img {
     width: 250px;
     height: auto;
+    flex-grow: 0;
 }
 
 .square {
@@ -29,4 +35,9 @@ img {
     height: 150px;
     flex: 1;
 
+}
+
+.container2 {
+    border: 2px solid #fff;
+    text-align: center;
 }
