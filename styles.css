@@ -18,6 +18,15 @@ li {
 }
 
 img {
-    width: 500px;
-    height: 750px;
+    width: 250px;
+    height: auto;
+}
+
+.square {
+    border: 2px solid #fff;
+    border-radius: 25px;
+    width: 150px;
+    height: 150px;
+    flex: 1;
+
 }
